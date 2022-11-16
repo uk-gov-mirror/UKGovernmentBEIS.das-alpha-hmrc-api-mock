@@ -19,8 +19,7 @@ buildInfoOptions ++= Seq(BuildInfoOption.ToJson, BuildInfoOption.BuildTime)
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.10")
 
 routesImport ++= Seq(
-  "uk.gov.bis.levyApiMock.models.PlayBindings._",
-  "uk.gov.bis.levyApiMock.models.QueryBinders._",
+  "uk.gov.bis.levyApiMock.models._",
   "org.joda.time.LocalDate")
 
 scalaVersion := "2.11.12"
