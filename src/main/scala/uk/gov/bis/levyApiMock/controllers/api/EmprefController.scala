@@ -6,7 +6,7 @@ import play.api.libs.json.Json
 import play.api.mvc.Controller
 import uk.gov.bis.levyApiMock.actions.AuthorizedAction
 import uk.gov.bis.levyApiMock.data.levy._
-import uk.gov.hmrc.domain.EmpRef
+import uk.gov.bis.levyApiMock.models.EmpRef
 
 import scala.concurrent.ExecutionContext
 

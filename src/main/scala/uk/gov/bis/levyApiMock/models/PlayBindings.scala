@@ -1,7 +1,7 @@
 package uk.gov.bis.levyApiMock.models
 
 import play.api.mvc.PathBindable
-import uk.gov.hmrc.domain.EmpRef
+import uk.gov.bis.levyApiMock.models.EmpRef
 
 import scala.util.{Failure, Success, Try}
 

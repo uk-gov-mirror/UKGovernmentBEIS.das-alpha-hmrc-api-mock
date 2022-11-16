@@ -8,7 +8,7 @@ import play.api.mvc.Controller
 import uk.gov.bis.levyApiMock.actions.AuthorizedAction
 import uk.gov.bis.levyApiMock.controllers.ClosedDateRange
 import uk.gov.bis.levyApiMock.data.levy.EmploymentStatusOps
-import uk.gov.hmrc.domain.EmpRef
+import uk.gov.bis.levyApiMock.models.EmpRef
 
 import scala.concurrent.{ExecutionContext, Future}
 
