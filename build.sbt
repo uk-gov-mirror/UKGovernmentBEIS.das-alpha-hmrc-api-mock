@@ -48,8 +48,6 @@ javaOptions := Seq(
   "-Dlogger.file=src/main/resources/development.logger.xml"
 )
 
-resolvers += Resolver.bintrayRepo("hmrc", "releases")
-
 scalafixDependencies in ThisBuild ++= Seq(
   "org.reactivemongo" %% "reactivemongo-scalafix" % "1.0.0")
 
@@ -58,7 +56,6 @@ val enumeratumVersion = "1.5.12"
 libraryDependencies ++= Seq(
   ws,
   "com.nulab-inc" %% "play2-oauth2-provider" % "1.0.0",
-  "uk.gov.hmrc" %% "domain" % "5.3.0",
   "org.mindrot" % "jbcrypt" % "0.4",
   "org.typelevel" %% "cats-core" % "0.9.0",
   "com.github.nscala-time" %% "nscala-time" % "2.12.0",
